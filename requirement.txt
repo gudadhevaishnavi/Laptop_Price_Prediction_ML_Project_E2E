@@ -7,5 +7,6 @@ joblib
 pyyaml
 flask
 notebook
+xgboost
 python-dotenv
 streamlit
