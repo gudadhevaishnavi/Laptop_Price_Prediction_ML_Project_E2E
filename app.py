@@ -1,10 +1,11 @@
-# app.py (updated: dropdowns for categorical features)
+# app.py (updated: dropdowns for cMAINategorical features)
 import streamlit as st
 import pandas as pd
 import joblib
 from pathlib import Path
 import json
 import numpy as np
+import xgboost as xgb
 
 st.set_page_config(page_title="Laptop Price Predictor", layout="wide")
 

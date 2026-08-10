@@ -37,3 +37,4 @@ def ingest_data() -> DataIngestionArtifact:
         return DataIngestionArtifact(raw_data_path=raw_path)
     except Exception as e:
         raise PricePredictorException(f"Data ingestion failed: {e}")
+    
